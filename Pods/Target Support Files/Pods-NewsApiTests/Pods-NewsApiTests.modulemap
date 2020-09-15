@@ -1,4 +1,4 @@
-framework module Pods_NewsApiTests {
+module Pods_NewsApiTests {
   umbrella header "Pods-NewsApiTests-umbrella.h"
 
   export *

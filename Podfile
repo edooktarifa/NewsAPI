@@ -5,16 +5,21 @@ target 'NewsApi' do
   use_frameworks!
 
 	pod 'AlamofireObjectMapper', '~> 5.2'
-  pod 'Kingfisher', '~> 4.0'
+  	pod 'Kingfisher', '~> 4.0'
+	pod 'RxSwift'
+  
+  end
+	
   # Pods for NewsApi
 
   target 'NewsApiTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Quick'
+    pod 'Nimble'
   end
 
   target 'NewsApiUITests' do
     # Pods for testing
   end
 
-end
